@@ -4,7 +4,7 @@ services:
 
   bellybutton:
     build:
-      context: ./services/users
+      context: ./services/bellybutton
       dockerfile: Dockerfile-prod
     expose:
       - 5000
