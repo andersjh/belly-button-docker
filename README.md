@@ -29,9 +29,9 @@ pause
 - reboot
 - confirm / enable required features by:
 -- "Turn Windows Features On Off" and make sure the following are on:
-<br><img src="markdownmonstericon.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+<br><img src="images\Windows_On_Off.PNG"
+     alt="Windows on off ( make sure wsl and virtual machine platform are on )"
+     style="float: center; margin-right: 10px;" />
 
 
 
