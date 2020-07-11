@@ -29,7 +29,7 @@ pause
 - reboot
 - confirm / enable required features by:
 -- "Turn Windows Features On Off" and make sure the following are on:
-<img src="markdownmonstericon.png"
+<b><img src="markdownmonstericon.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
