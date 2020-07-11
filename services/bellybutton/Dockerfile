@@ -2,13 +2,9 @@
 FROM python:3.7.2-slim
 
 # install dependencies
-RUN apt-get update && apt-get -y dist-upgrade
-RUN apt install -y netcat
+RUN apt-get update && apt-get -y dist-upgrade && \
+    apt install -y netcat 
 
-# RUN apk update && \
-#     apk add --virtual build-deps gcc python-dev musl-dev && \
-#     apk add postgresql-dev && \
-#     apk add netcat-openbsd
 
 # set working directory
 WORKDIR /usr/src/app
