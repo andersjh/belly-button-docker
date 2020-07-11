@@ -1,0 +1,40 @@
+version: '3.7'
+
+services:
+
+  bellybutton:
+    build:
+      context: ./services/bellybutton
+      dockerfile: Dockerfile
+    volumes:
+      - ./services/bellybutton:/usr/src/app   
+    ports:
+      - 5001:5000
+    environment:
+      - FLASK_ENV=development
+      - APP_SETTINGS=project.config.DevelopmentConfig
+      - DATABASE_URL=postgres://postgres:postgres@bellybutton-db:5432/bellybutton
+    depends_on:
+      - bellybutton-db
+
+  bellybutton-db:
+    build:
+      context: ./services/bellybutton/project/db
+      dockerfile: Dockerfile
+    ports:
+      - 5436:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+
+  nginx:
+    build:
+      context: ./services/nginx
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 80:80
+    depends_on:
+      - bellybutton      
+
+
