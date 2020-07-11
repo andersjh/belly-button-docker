@@ -21,7 +21,7 @@ bellybuttons_blueprint = Blueprint('bellybuttons', __name__,
 api = Api(bellybuttons_blueprint)
 
 
-@bellybuttons_blueprint.route('/bellybuttons', methods=['GET'])
+@bellybuttons_blueprint.route('/', methods=['GET'])
 def index():
     users = data.get_subject_ids()
     return render_template("index.html", user_ids=users)
