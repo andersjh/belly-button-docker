@@ -29,9 +29,10 @@ pause
 - reboot
 - confirm / enable required features by:
 -- "Turn Windows Features On Off" and make sure the following are on:
-<br><img src="images\Windows_On_Off.PNG"
+<br><br><img src="images\Windows_On_Off.PNG"
      alt="Windows on off ( make sure wsl and virtual machine platform are on )"
-     style="float: center; margin-right: 10px;" />
+     style="float: center; margin-left: 10px;" />
+-- reboot
 
 
 
