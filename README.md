@@ -78,6 +78,21 @@ A lot of the structure from this demo is built upon the EXCELLENT course <b>Test
 
 - Create AWS Machine ```docker-machine create --driver amazonec2 <ec2_name>```<br>
 - Get AWS IP: ```docker-macine ip <ec2_name>```<br>
+- Set machine to cloud location: ```docker-machine env <ec2_name> > vir.bat``` and then run vir.bat<br>
+- Set machine to local pc: ```docker-machine env -u > local.bat``` and then run local.bat<br>
+- Build default container: ```docker-compose up -d --build```<br>
+- Build custom container: ```docker-compose up -f <yml file> up -d --build``` 
+- Stop container: ```docker-compose down```
+- Remove container locally and in cloud ( this is HUGE ): ```docker-machine rm <ec2_name>```<br>
+- See what's running: ```docker ps```<br>
+- Create basic container: ```docker create -t <tag> .```<br>
+- Run container: ```docker start -t <tag> --name <name> -p local_port:container_port -dt <tag>```<br>
+- Stop container: ```docker stop <name>```<br>
+
+### Great Docker Book
+- [Learn Docker in a Month of Lunches](https://www.manning.com/books/learn-docker-in-a-month-of-lunches)<br>
+
+
 
 
 
