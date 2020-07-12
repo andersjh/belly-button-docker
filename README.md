@@ -38,7 +38,7 @@ pause
 
 ### Windows Terminal
 
-Windows terminal is an awesome new product that makes all your possible windows scripting environments available from one program.  It's really awesome!
+Windows terminal is an awesome new product that makes all your possible windows scripting environments available from one program.  It's really amazing! DOS, PowerShell, Ubunto, Debian, Azure cloud and many more available from one tool!  
 
 [Intro Video](https://www.youtube.com/watch?v=9jQthJ2uvLI)
 
@@ -49,6 +49,23 @@ Windows terminal is an awesome new product that makes all your possible windows 
      style="float: center; margin-left: 10px;" />
 
 
+## Install Docker and Docker-Machine
+
+Docker will come with docker and docker-compose
+
+[Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
+[Install Docker Desktop on Mac](https://docs.docker.com/docker-for-mac/install/)
+
+You need to install docker-machine by itself.  This is a very cool tool that makes deploying to the cloud super easy!
+[Install Docker-Machine](https://github.com/docker/machine/releases)
+
+[Great WSL2 & Docker Article](https://www.hanselman.com/blog/HowToSetUpDockerWithinWindowsSystemForLinuxWSL2OnWindows10.aspx)
+
+## Docker and Belly Button Homework Walkthrough
+
+A lot of the structure from this demo is built upon the EXCELLENT course <b>Test-Driven Development with Python, Flask, and Docker</b>
+
+[Course Link](https://testdriven.io/courses/tdd-flask/)
 
 
 
