@@ -6,6 +6,8 @@ Docker is very important in the current job market.  This brief introduction is 
 
 ### WSL2 - True Linux Kernel Running in Windows:
 
+For the first time ever, a true Linux kernel can run on a Windows machine.  This kernal can access your Windows file system without issue. It is a true Linux kernal and not a mock version (like git bash).
+
 [WSL 2 and Docker](https://www.youtube.com/watch?v=5RQbdMn04Oc)
 
 [Install WSL2 on Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10)'
@@ -33,6 +35,20 @@ pause
      alt="Windows on off ( make sure wsl and virtual machine platform are on )"
      style="float: center; margin-left: 10px;" />
 - reboot again
+
+### Windows Terminal
+
+Windows terminal is an awesome new product that makes all your possible windows scripting environments available from one program.  It's really awesome!
+
+[Intro Video](https://www.youtube.com/watch?v=9jQthJ2uvLI)
+
+[Install](https://www.microsoft.com/en-us/p/windows-terminal)
+
+<br><br><img src="images\Terminal.PNG"
+     alt="Windows Terminal is Awesome"
+     style="float: center; margin-left: 10px;" />
+
+
 
 
 
