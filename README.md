@@ -67,5 +67,17 @@ A lot of the structure from this demo is built upon the EXCELLENT course <b>Test
 
 [Course Link](https://testdriven.io/courses/tdd-flask/)
 
+### AWS Setup ( Configuration ) for CLI:
+
+[AWS Signup](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html)<br>
+[AWS IAM](https://aws.amazon.com/iam/)<br>
+
+[Docker AWS Example](https://docs.docker.com/machine/examples/aws/)<br>
+
+### Crucial Commands Demonstrated
+
+- Create AWS Machine ```docker-machine create --driver amazonec2 <ec2_name>```<br>
+- Get AWS IP: ```docker-macine ip <ec2_name>```<br>
+
 
 
