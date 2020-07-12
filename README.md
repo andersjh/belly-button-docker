@@ -53,11 +53,11 @@ Windows terminal is an awesome new product that makes all your possible windows 
 
 Docker will come with docker and docker-compose
 
-[Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
+[Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)<br>
 [Install Docker Desktop on Mac](https://docs.docker.com/docker-for-mac/install/)
 
 You need to install docker-machine by itself.  This is a very cool tool that makes deploying to the cloud super easy!
-[Install Docker-Machine](https://github.com/docker/machine/releases)
+<br>[Install Docker-Machine](https://github.com/docker/machine/releases)
 
 [Great WSL2 & Docker Article](https://www.hanselman.com/blog/HowToSetUpDockerWithinWindowsSystemForLinuxWSL2OnWindows10.aspx)
 
